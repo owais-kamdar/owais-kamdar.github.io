@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/portfolio-flask/', // Add a leading slash to the base path
+  base: '/',
   plugins: [react()],
   build: {
-    outDir: 'docs', // Ensure the build output goes into the 'docs' folder
+    outDir: 'docs', // Build output will go into the 'docs' folder
   },
 });
