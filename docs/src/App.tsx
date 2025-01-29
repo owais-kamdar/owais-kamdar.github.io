@@ -1,18 +1,17 @@
-import React from 'react';
-import { Github, Linkedin, Mail, FileText, Brain, Database, Code, ChevronRight, ExternalLink, FlaskRound as Flask, LineChart, Bot, FileSearch, Microscope, BarChart3 } from 'lucide-react';
+import { Github, Linkedin, Mail, FileText, Brain, Database, Code, ChevronRight, ExternalLink, LineChart, Bot, FileSearch, Microscope, BarChart3 } from 'lucide-react';
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-900 text-gray-100">
       {/* Header/Hero Section */}
-      <header className="relative bg-gradient-to-r from-blue-900 via-indigo-900 to-purple-900 py-32">
+      <header className="relative bg-gradient-to-r from-blue-900 via-white-900 to-white-900 py-32">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80')] opacity-10 bg-cover bg-center" />
         <div className="container mx-auto px-4 relative">
           <div className="animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-200 to-blue-100">
               Owais Kamdar
             </h1>
-            <p className="text-2xl mb-8 text-blue-200">Machine Learning Engineer & Data Scientist</p>
+            <p className="text-2xl mb-8 text-blue-200">Aspiring Machine Learning Engineer</p>
             <div className="flex space-x-6">
               <a href="https://github.com/owais.kamdar" 
                 className="flex items-center gap-2 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full transition-all">
@@ -35,10 +34,10 @@ function App() {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-16 -mt-20">
+      <main className="container mx-auto px-4 py-16 -mt-2">
         {/* Education Section */}
         <section className="mb-20 animate-fade-in-delay-1">
-          <h2 className="text-3xl font-bold mb-8 text-blue-400 flex items-center gap-2">
+          <h2 className="text-3xl font-bold mb-8 text-gray-100 flex items-center gap-2">
             <Brain className="w-8 h-8" />
             Education
           </h2>
@@ -51,9 +50,9 @@ function App() {
             </div>
             <div className="glass-card rounded-xl p-8">
               <h3 className="font-bold text-xl mb-2">University of North Carolina at Chapel Hill</h3>
-              <p className="text-blue-400 font-medium mb-2">Bachelor of Science in Neuroscience</p>
-              <p className="text-gray-400">Minors in Data Science and Chemistry</p>
-              <p className="text-gray-400">May 2022</p>
+              <p className="text-blue-400 font-medium mb-2">B.S. in Neuroscience; Minors in Data Science and Chemistry</p>
+              <p className="text-blue-400"></p>
+              <p className="text-gray-400">August 2018 - May 2022</p>
               <p className="text-gray-400 mt-2">Coursework: Computational Neuroscience; Scientific Programming; Foundations of Statistics and Data Science</p>
             </div>
           </div>
@@ -61,7 +60,7 @@ function App() {
 
         {/* Experience Section */}
         <section className="mb-20 animate-fade-in-delay-1">
-          <h2 className="text-3xl font-bold mb-8 text-blue-400 flex items-center gap-2">
+          <h2 className="text-3xl font-bold mb-8 text-gray-100 flex items-center gap-2">
             <Code className="w-8 h-8" />
             Experience
           </h2>
@@ -99,6 +98,29 @@ function App() {
                 </li>
               </ul>
             </div>
+            <div className="glass-card rounded-xl p-8">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h3 className="font-bold text-xl mb-2">MRJ Investments</h3>
+                  <p className="text-blue-400 font-medium">Data Analyst</p>
+                </div>
+                <span className="text-gray-400">Jan 2024 - Aug 2024</span>
+              </div>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
+                  <span>Conducted in-depth analysis using SQL and Python to develop predictive models</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
+                  <span>Visualized complex datasets with Tableau, generating actionable insights to increase revenue </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
+                  <span>Optimized data workflows and implemented cross-functional data-driven strategies</span>
+                </li>
+              </ul>
+            </div>
 
             <div className="glass-card rounded-xl p-8">
               <div className="flex justify-between items-start mb-4">
@@ -128,7 +150,7 @@ function App() {
 
         {/* Skills Section */}
         <section className="mb-20 animate-fade-in-delay-2">
-          <h2 className="text-3xl font-bold mb-8 text-blue-400 flex items-center gap-2">
+          <h2 className="text-3xl font-bold mb-8 text-gray-100 flex items-center gap-2">
             <Database className="w-8 h-8" />
             Skills
           </h2>
@@ -168,13 +190,13 @@ function App() {
 
         {/* Projects Section */}
         <section className="animate-fade-in-delay-2">
-          <h2 className="text-3xl font-bold mb-8 text-blue-400 flex items-center gap-2">
+          <h2 className="text-3xl font-bold mb-8 text-gray-100 flex items-center gap-2">
             <FileText className="w-8 h-8" />
-            Featured Projects
+            Projects
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="glass-card rounded-xl p-8">
-              <LineChart className="w-10 h-10 text-blue-400 mb-6" />
+              <BarChart3 className="w-10 h-10 text-blue-400 mb-6" />
               <h3 className="font-bold text-xl mb-4">Quantitative Trading Backtester</h3>
               <p className="text-gray-300 mb-6">Backtest trading strategies with advanced performance metrics and dynamic visualizations.</p>
               <a href="#" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
