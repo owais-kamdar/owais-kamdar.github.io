@@ -199,7 +199,7 @@ function App() {
               <BarChart3 className="w-10 h-10 text-blue-400 mb-6" />
               <h3 className="font-bold text-xl mb-4">Quantitative Trading Backtester</h3>
               <p className="text-gray-300 mb-6">Backtest trading strategies with advanced performance metrics and dynamic visualizations.</p>
-              <a href="#" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <a href="https://github.com/owais-kamdar/quant-trading-backtester" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
@@ -207,7 +207,7 @@ function App() {
               <LineChart className="w-10 h-10 text-blue-400 mb-6" />
               <h3 className="font-bold text-xl mb-4">Housing Market Forecaster</h3>
               <p className="text-gray-300 mb-6">Predict housing prices using SARIMA, ARIMA, and machine learning techniques.</p>
-              <a href="#" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <a href="https://github.com/owais-kamdar/Housing-Forecaster-ML-and-Time-Series-Models" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
@@ -215,7 +215,7 @@ function App() {
               <Bot className="w-10 h-10 text-blue-400 mb-6" />
               <h3 className="font-bold text-xl mb-4">Gmail Job Filter Bot</h3>
               <p className="text-gray-300 mb-6">Automated email sorting and filtering system for job applications using Gmail API.</p>
-              <a href="#" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <a href="https://github.com/owais-kamdar/Gmail-Job-Email-Filter-Bot" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
@@ -223,15 +223,15 @@ function App() {
               <FileSearch className="w-10 h-10 text-blue-400 mb-6" />
               <h3 className="font-bold text-xl mb-4">Text Analysis Tool</h3>
               <p className="text-gray-300 mb-6">Extract insights and patterns from text data using NLP techniques.</p>
-              <a href="#" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <a href="https://github.com/owais-kamdar/text-analyze-tool" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
             <div className="glass-card rounded-xl p-8">
               <Microscope className="w-10 h-10 text-blue-400 mb-6" />
-              <h3 className="font-bold text-xl mb-4">Skin Lesion Classification</h3>
-              <p className="text-gray-300 mb-6">CNN-based classification system for early skin disease detection.</p>
-              <a href="#" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <h3 className="font-bold text-xl mb-4">Retinal Fundus Disorder Detection</h3>
+              <p className="text-gray-300 mb-6">ML-based and CNN classification system for retinal fundus disorder detection</p>
+              <a href="https://github.com/AIPI540Spring2025Avengers/retinal-fundus-disorder-detection" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
@@ -239,7 +239,7 @@ function App() {
               <BarChart3 className="w-10 h-10 text-blue-400 mb-6" />
               <h3 className="font-bold text-xl mb-4">One-Way ANOVA Tool</h3>
               <p className="text-gray-300 mb-6">Interactive web application for statistical analysis using ANOVA.</p>
-              <a href="#" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <a href="https://github.com/owais-kamdar/One-Way-Anova-Interactive-Webpage" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
