@@ -3,7 +3,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: '/',
   plugins: [react()],
-  build: {
-    outDir: 'docs', // Output the build files into the current directory (docs)
+  css: {
+    modules: {
+      localsConvention: "camelCase"
+    },
   },
-});
+})
