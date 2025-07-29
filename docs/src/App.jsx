@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, FileText, Brain, Database, Code, ChevronRight, ExternalLink, LineChart, Bot, FileSearch, Microscope, BarChart3 } from 'lucide-react';
+import { Github, Linkedin, Mail, FileText, Brain, Database, Code, ChevronRight, ExternalLink, LineChart, Bot, FileSearch, Microscope, BarChart3, Camera } from 'lucide-react';
 
 function App() {
   return (
@@ -69,55 +69,69 @@ function App() {
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <h3 className="font-bold text-xl mb-2">T-Mobile</h3>
-                  <p className="text-blue-400 font-medium">Incoming Machine Learning Engineer Intern (Graduate)</p>
+                  <p className="text-blue-400 font-medium">Graduate Machine Learning Engineer Intern</p>
                 </div>
-                <span className="text-gray-400">Expected: May 2025 - Aug 2025</span>
+                <span className="text-gray-400">May 2025 - Aug 2025</span>
               </div>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
+                  <span>Migrated Power BI dashboard to Databricks, reducing refresh time by 15% and improving data accuracy.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
+                  <span>Deployed RAG-integrated Databricks chatbot, transforming model outputs into explainable insights.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
+                  <span>Collaborated on CI/CD pipeline with Gitlab and Databricks, reducing manual deployment time by 20%.</span>
+                </li>
+              </ul>
             </div>
             
             <div className="glass-card rounded-xl p-8">
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <h3 className="font-bold text-xl mb-2">Advantis Solutions</h3>
-                  <p className="text-blue-400 font-medium">Senior Data Engineer</p>
+                  <p className="text-blue-400 font-medium">Data Engineer</p>
                 </div>
                 <span className="text-gray-400">Jan 2024 - Aug 2024</span>
               </div>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start gap-2">
                   <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
-                  <span>Designed and implemented scalable ETL pipelines using Spark and SQL to handle large-scale datasets</span>
+                  <span>Developed 5+ GPT-powered chatbots connecting client databases to OpenAI APIs, reducing response time by 25%.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
-                  <span>Enhanced pipeline efficiency by implementing fault-tolerant mechanisms and optimizing cloud-based architecture</span>
+                  <span>Built AWS data pipelines processing 50GB+ client data, enabling real-time dashboards and analytics.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
-                  <span>Collaborated with cross-functional teams to integrate real-time analytics into existing platforms</span>
+                  <span>Implemented Python error handling and feedback loops, improving response relevance by 15%.</span>
                 </li>
               </ul>
             </div>
             <div className="glass-card rounded-xl p-8">
               <div className="flex justify-between items-start mb-4">
                 <div>
-                  <h3 className="font-bold text-xl mb-2">MRJ Investments</h3>
+                  <h3 className="font-bold text-xl mb-2">MRJ Investments, LLC</h3>
                   <p className="text-blue-400 font-medium">Data Analyst</p>
                 </div>
-                <span className="text-gray-400">Jan 2024 - Aug 2024</span>
+                <span className="text-gray-400">Jan 2023 - Dec 2023</span>
               </div>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start gap-2">
                   <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
-                  <span>Conducted in-depth analysis using SQL and Python to develop predictive models</span>
+                  <span>Built Python regression models predicting construction costs, avoiding $23k in overruns across 4 projects.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
-                  <span>Visualized complex datasets with Tableau, generating actionable insights to increase revenue </span>
+                  <span>Created Tableau dashboards analyzing tenant data, contributing to $13k additional revenue.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <ChevronRight className="w-5 h-5 text-blue-400 flex-shrink-0 mt-1" />
-                  <span>Optimized data workflows and implemented cross-functional data-driven strategies</span>
+                  <span>Streamlined project tracking by consolidating Excel into Power Query system, reducing manual data entry.</span>
                 </li>
               </ul>
             </div>
@@ -196,18 +210,18 @@ function App() {
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="glass-card rounded-xl p-8">
-              <BarChart3 className="w-10 h-10 text-blue-400 mb-6" />
-              <h3 className="font-bold text-xl mb-4">Quantitative Trading Backtester</h3>
-              <p className="text-gray-300 mb-6">Backtest trading strategies with advanced performance metrics and dynamic visualizations.</p>
-              <a href="https://github.com/owais-kamdar/quant-trading-backtester" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <Camera className="w-10 h-10 text-blue-400 mb-6" />
+              <h3 className="font-bold text-xl mb-4">Food Classification System</h3>
+              <p className="text-gray-300 mb-6">Multi-approach computer vision system classifying food images into 121 categories.</p>
+              <a href="https://github.com/owais-kamdar/Food-Classifier" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
             <div className="glass-card rounded-xl p-8">
-              <LineChart className="w-10 h-10 text-blue-400 mb-6" />
-              <h3 className="font-bold text-xl mb-4">Housing Market Forecaster</h3>
-              <p className="text-gray-300 mb-6">Predict housing prices using SARIMA, ARIMA, and machine learning techniques.</p>
-              <a href="https://github.com/owais-kamdar/Housing-Forecaster-ML-and-Time-Series-Models" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <Bot className="w-10 h-10 text-blue-400 mb-6" />
+              <h3 className="font-bold text-xl mb-4">GestureBot</h3>
+              <p className="text-gray-300 mb-6">Raspberry Pi project using CV to detect hand gestures and control a robot hand in real-time.</p>
+              <a href="https://github.com/owais-kamdar/robotic-hand-tracking" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
@@ -228,18 +242,18 @@ function App() {
               </a>
             </div>
             <div className="glass-card rounded-xl p-8">
-              <FileSearch className="w-10 h-10 text-blue-400 mb-6" />
-              <h3 className="font-bold text-xl mb-4">Gmail Job Filtering Bot</h3>
-              <p className="text-gray-300 mb-6">Bot that filters job-related emails from Gmail and moves them into folder using a simple GUI.</p>
-              <a href="https://github.com/owais-kamdar/Gmail-Job-Email-Filter-Bot" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <Brain className="w-10 h-10 text-blue-400 mb-6" />
+              <h3 className="font-bold text-xl mb-4">Duke University Chatbot</h3>
+              <p className="text-gray-300 mb-6">Agentic AI assistant providing information about the Duke University AIPI program.</p>
+              <a href="https://github.com/owais-kamdar/duke-chatbot" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
             <div className="glass-card rounded-xl p-8">
-              <BarChart3 className="w-10 h-10 text-blue-400 mb-6" />
-              <h3 className="font-bold text-xl mb-4">One-Way ANOVA Tool</h3>
-              <p className="text-gray-300 mb-6">Interactive web application for statistical analysis using ANOVA.</p>
-              <a href="https://github.com/owais-kamdar/One-Way-Anova-Interactive-Webpage" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
+              <FileSearch className="w-10 h-10 text-blue-400 mb-6" />
+              <h3 className="font-bold text-xl mb-4">SuperChat</h3>
+              <p className="text-gray-300 mb-6">Chat interface for 3 concurrent Amazon Bedrock models with RAG and analytics dashboard.</p>
+              <a href="https://github.com/owais-kamdar/bedrock-chat" className="inline-flex items-center text-blue-400 hover:text-blue-300 font-medium">
                 View Project <ExternalLink className="w-4 h-4 ml-2" />
               </a>
             </div>
